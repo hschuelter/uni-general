@@ -1,0 +1,24 @@
+Caso 1 ( 5.000 nomes / 1.000 consultas ) :
+	Inserção: 6,627 milissegundos
+	Busca: 3,965 milissegundos
+	Total: 10,592 milissegundos
+
+Caso 2 ( 25.000 nomes / 10.000 consultas ) :
+	Inserção: 30,435 milissegundos
+	Busca: 28,679 milissegundos
+	Total: 59,114 milissegundos
+
+Caso 3 ( 50.000 nomes / 10.000 consultas ) :
+	Inserção: 50,211 milissegundos
+	Busca: 28,358 milissegundos
+	Total: 78,569 milissegundos
+
+Caso 4 ( 100.000 nomes / 25.000 consultas ) :
+	Inserção: 83,374 milissegundos
+	Busca: 83,234 milissegundos
+	Total: 166,608 milissegundos
+
+Caso 5 ( 100.000 nomes / 75.000 consultas ) :
+	Inserção: 83,354 milissegundos
+	Busca: 273,736 milissegundos
+	Total: 357,090 milissegundos

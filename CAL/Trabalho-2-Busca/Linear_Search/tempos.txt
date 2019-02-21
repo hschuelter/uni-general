@@ -1,0 +1,27 @@
+Caso 1 ( 5.000 nomes / 1.000 consultas ) :
+	Tempo de insercao: 2,635 (milissegundos)
+	Tempo de busca: 69,222 (milissegundos)
+	Tempo Total:. 71,857 (milissegundos)
+
+Caso 2 ( 25.000 nomes / 10.000 consultas ) :
+	Tempo de insercao: 12,380 (milissegundos)
+	Tempo de busca: 2.531,275 (milissegundos)
+	Tempo Total: 2.543,655 (milissegundos)
+
+
+Caso 3 ( 50.000 nomes / 10.000 consultas ) :
+	Tempo de insercao: 25,314 (milissegundos)
+	Tempo de busca: 3.677,014 (milissegundos)
+	Tempo Total: 3.702,328 (milissegundos)
+
+
+Caso 4 ( 50.000 nomes / 25.000 consultas ) :
+	Tempo de insercao: 52,317 (milissegundos)
+	Tempo de busca: 9.461,729 (milissegundos)
+	Tempo Total: 9.514,046 (milissegundos)
+
+
+Caso 5 ( 100.000 nomes / 75.000 consultas ) :
+	Tempo de insercao: 60,233 (milissegundos)
+	Tempo de busca: 28.104,439 (milissegundos)
+	Tempo Total: 28.225,085 (milissegundos)
