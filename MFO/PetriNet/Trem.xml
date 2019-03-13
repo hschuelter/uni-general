@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pnml xmlns="http://www.informatik.hu-berlin.de/top/pnml/ptNetb">
+  <net active="true" id="TAPN1" type="P/T net">
+    <place displayName="true" id="Lucerne_Parado_S" initialMarking="1" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Lucerne_Parado_S" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="105.0" positionY="540.0"/>
+    <place displayName="true" id="Ativou_b1" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Ativou_b1" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="105.0" positionY="210.0"/>
+    <place displayName="true" id="Parado_S_1" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Parado_S_1" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="105.0" positionY="45.0"/>
+    <place displayName="true" id="Mutex_Controla_Ponte" initialMarking="1" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Mutex_Controla_Ponte" nameOffsetX="84.0" nameOffsetY="-10.0" positionX="645.0" positionY="195.0"/>
+    <place displayName="true" id="Passou_Ponte_Stans_1" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Passou_Ponte_Stans_1" nameOffsetX="75.25" nameOffsetY="1.25" positionX="315.0" positionY="120.0"/>
+    <place displayName="true" id="Ativou_c_1" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Ativou_c_1" nameOffsetX="-7.5" nameOffsetY="22.5" positionX="315.0" positionY="285.0"/>
+    <place displayName="true" id="Parado_Engelberg_S_1" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Parado_Engelberg_S_1" nameOffsetX="68.75" nameOffsetY="-2.5" positionX="315.0" positionY="435.0"/>
+    <place displayName="true" id="Desembarque_Embarque_Completo_2" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Desembarque_Embarque_Completo_2" nameOffsetX="112.5" nameOffsetY="-3.75" positionX="315.0" positionY="585.0"/>
+    <place displayName="true" id="Chega_na_Ponte_Stans_1" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Chega_na_Ponte_Stans_1" nameOffsetX="76.66666666666669" nameOffsetY="-1.6666666666666698" positionX="315.0" positionY="735.0"/>
+    <place displayName="true" id="Ativou_a1" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Ativou_a1" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="105.0" positionY="660.0"/>
+    <place displayName="true" id="Desembarque_Embarque_Completo_1" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Desembarque_Embarque_Completo_1" nameOffsetX="117.5" nameOffsetY="-5.0" positionX="105.0" positionY="390.0"/>
+    <place displayName="true" id="Ponte_Liberada_1" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Ponte_Liberada_1" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="105.0" positionY="825.0"/>
+    <place displayName="true" id="Chega_na_Ponte_Stans_2" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Chega_na_Ponte_Stans_2" nameOffsetX="60.0" nameOffsetY="-4.999999999999999" positionX="945.0" positionY="735.0"/>
+    <place displayName="true" id="Desembarque_Embarque_Completo_4" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Desembarque_Embarque_Completo_4" nameOffsetX="111.66666666666667" nameOffsetY="-1.666666666666669" positionX="945.0" positionY="600.0"/>
+    <place displayName="true" id="Parado_Engelberg_S_2" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Parado_Engelberg_S_2" nameOffsetX="75.0" nameOffsetY="-5.0" positionX="945.0" positionY="450.0"/>
+    <place displayName="true" id="Ativou_c_2" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Ativou_c_2" nameOffsetX="-5.000000000000011" nameOffsetY="26.666666666666668" positionX="945.0" positionY="285.0"/>
+    <place displayName="true" id="Passou_Ponte_Stans_2" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Passou_Ponte_Stans_2" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="945.0" positionY="120.0"/>
+    <place displayName="true" id="Ponte_Liberada_2" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Ponte_Liberada_2" nameOffsetX="51.66666666666667" nameOffsetY="60.0" positionX="1170.0" positionY="825.0"/>
+    <place displayName="true" id="Ativou_a2" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Ativou_a2" nameOffsetX="43.333333333333336" nameOffsetY="9.999999999999998" positionX="1170.0" positionY="645.0"/>
+    <place displayName="true" id="Sarnen_Parado_S" initialMarking="1" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Sarnen_Parado_S" nameOffsetX="51.66666666666665" nameOffsetY="5.0" positionX="1170.0" positionY="480.0"/>
+    <place displayName="true" id="Desembarque_Embarque_Completo_3" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Desembarque_Embarque_Completo_3" nameOffsetX="110.0" nameOffsetY="8.333333333333327" positionX="1170.0" positionY="315.0"/>
+    <place displayName="true" id="Ativou_b2" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Ativou_b2" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1170.0" positionY="180.0"/>
+    <place displayName="true" id="Parado_S_2" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="Parado_S_2" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1170.0" positionY="45.0"/>
+    <transition angle="90" displayName="true" id="Ir_Para_Direita_R_1" infiniteServer="false" name="Ir_Para_Direita_R_1" nameOffsetX="-5.0" nameOffsetY="28.0" positionX="105.0" positionY="270.0" priority="0" urgent="false"/>
+    <transition angle="90" displayName="true" id="Desacelerar_1" infiniteServer="false" name="Desacelerar_1" nameOffsetX="8.333333333333341" nameOffsetY="14.999999999999991" positionX="105.0" positionY="135.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="Requisitar_Ponte_1" infiniteServer="false" name="Requisitar_Ponte_1" nameOffsetX="74.33333333333333" nameOffsetY="5.250000000000007" positionX="315.0" positionY="45.0" priority="0" urgent="false"/>
+    <transition angle="90" displayName="true" id="Ir_Para_Direita_R_2" infiniteServer="false" name="Ir_Para_Direita_R_2" nameOffsetX="78.0" nameOffsetY="2.75" positionX="315.0" positionY="225.0" priority="0" urgent="false"/>
+    <transition angle="90" displayName="true" id="Desacelerar_2" infiniteServer="false" name="Desacelerar_2" nameOffsetX="112.5" nameOffsetY="26.5" positionX="315.0" positionY="345.0" priority="0" urgent="false"/>
+    <transition angle="90" displayName="true" id="Desembarcar_Embarcar_Passageiros_2" infiniteServer="false" name="Desembarcar_Embarcar_Passageiros_2" nameOffsetX="136.25" nameOffsetY="3.75" positionX="315.0" positionY="525.0" priority="0" urgent="false"/>
+    <transition angle="90" displayName="true" id="Ir_para_Esquerda_L_1" infiniteServer="false" name="Ir_para_Esquerda_L_1" nameOffsetX="77.5" nameOffsetY="7.499999999999996" positionX="315.0" positionY="675.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="Ir_para_Esquerda_L_2" infiniteServer="false" name="Ir_para_Esquerda_L_2" nameOffsetX="65.0" nameOffsetY="-5.0" positionX="105.0" positionY="735.0" priority="0" urgent="false"/>
+    <transition angle="90" displayName="true" id="Desacelerar_3" infiniteServer="false" name="Desacelerar_3" nameOffsetX="56.66666666666666" nameOffsetY="11.666666666666663" positionX="105.0" positionY="600.0" priority="0" urgent="false"/>
+    <transition angle="90" displayName="true" id="Desembarcar_Embarcar_Passageiros_1" infiniteServer="false" name="Desembarcar_Embarcar_Passageiros_1" nameOffsetX="116.25" nameOffsetY="3.75" positionX="105.0" positionY="465.0" priority="0" urgent="false"/>
+    <transition angle="180" displayName="true" id="Liberar_Ponte_1" infiniteServer="false" name="Liberar_Ponte_1" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="315.0" positionY="825.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="Requisitar_Ponte_2" infiniteServer="false" name="Requisitar_Ponte_2" nameOffsetX="69.99999999999999" nameOffsetY="5.000000000000003" positionX="945.0" positionY="45.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="Ir_Para_Direita_R_3" infiniteServer="false" name="Ir_Para_Direita_R_3" nameOffsetX="66.66666666666667" nameOffsetY="-3.3333333333333375" positionX="945.0" positionY="210.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="Desacelerar_4" infiniteServer="false" name="Desacelerar_4" nameOffsetX="44.999999999999986" nameOffsetY="-6.666666666666671" positionX="945.0" positionY="375.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="Desembarcar_Embarcar_Passageiros_3" infiniteServer="false" name="Desembarcar_Embarcar_Passageiros_3" nameOffsetX="119.99999999999996" nameOffsetY="-1.666666666666668" positionX="945.0" positionY="525.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="Ir_Para_Esquerda_L_3" infiniteServer="false" name="Ir_Para_Esquerda_L_3" nameOffsetX="64.99999999999996" nameOffsetY="-1.6666666666666743" positionX="945.0" positionY="675.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="Liberar_Ponte_2" infiniteServer="false" name="Liberar_Ponte_2" nameOffsetX="29.999999999999996" nameOffsetY="51.666666666666664" positionX="945.0" positionY="825.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="Ir_para_Esquerda_L_4" infiniteServer="false" name="Ir_para_Esquerda_L_4" nameOffsetX="61.66666666666667" nameOffsetY="4.999999999999997" positionX="1170.0" positionY="735.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="Desacelerar_5" infiniteServer="false" name="Desacelerar_5" nameOffsetX="43.33333333333335" nameOffsetY="3.333333333333324" positionX="1170.0" positionY="570.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="Desembarcar_Embarcar_Passageiros_4" infiniteServer="false" name="Desembarcar_Embarcar_Passageiros_4" nameOffsetX="126.6666666666667" nameOffsetY="3.3333333333333304" positionX="1170.0" positionY="390.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="Ir_Para_Direita_R_4" infiniteServer="false" name="Ir_Para_Direita_R_4" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1170.0" positionY="240.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="Desacelerar_6" infiniteServer="false" name="Desacelerar_6" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1170.0" positionY="105.0" priority="0" urgent="false"/>
+    <arc id="Ir_Para_Direita_R_1 to Ativou_b1" inscription="1" source="Ir_Para_Direita_R_1" target="Ativou_b1" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="116" yCoord="276"/>
+      <arcpath arcPointType="false" id="1" xCoord="116" yCoord="236"/>
+    </arc>
+    <arc id="Ativou_b1 to Desacelerar_1" inscription="[0,inf)" source="Ativou_b1" target="Desacelerar_1" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="116" yCoord="207"/>
+      <arcpath arcPointType="false" id="1" xCoord="116" yCoord="151"/>
+    </arc>
+    <arc id="Desacelerar_1 to Parado_S_1" inscription="1" source="Desacelerar_1" target="Parado_S_1" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="116" yCoord="141"/>
+      <arcpath arcPointType="false" id="1" xCoord="116" yCoord="71"/>
+    </arc>
+    <arc id="Parado_S_1 to Requisitar_Ponte_1" inscription="[0,inf)" source="Parado_S_1" target="Requisitar_Ponte_1" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="131" yCoord="57"/>
+      <arcpath arcPointType="false" id="1" xCoord="321" yCoord="57"/>
+    </arc>
+    <arc id="Requisitar_Ponte_1 to Passou_Ponte_Stans_1" inscription="1" source="Requisitar_Ponte_1" target="Passou_Ponte_Stans_1" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="327" yCoord="72"/>
+      <arcpath arcPointType="false" id="1" xCoord="327" yCoord="117"/>
+    </arc>
+    <arc id="Passou_Ponte_Stans_1 to Ir_Para_Direita_R_2" inscription="[0,inf)" source="Passou_Ponte_Stans_1" target="Ir_Para_Direita_R_2" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="326" yCoord="146"/>
+      <arcpath arcPointType="false" id="1" xCoord="326" yCoord="231"/>
+    </arc>
+    <arc id="Ir_Para_Direita_R_2 to Ativou_c_1" inscription="1" source="Ir_Para_Direita_R_2" target="Ativou_c_1" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="326" yCoord="241"/>
+      <arcpath arcPointType="false" id="1" xCoord="326" yCoord="282"/>
+    </arc>
+    <arc id="Ativou_c_1 to Desacelerar_2" inscription="[0,inf)" source="Ativou_c_1" target="Desacelerar_2" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="326" yCoord="311"/>
+      <arcpath arcPointType="false" id="1" xCoord="326" yCoord="351"/>
+    </arc>
+    <arc id="Desacelerar_2 to Parado_Engelberg_S_1" inscription="1" source="Desacelerar_2" target="Parado_Engelberg_S_1" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="326" yCoord="361"/>
+      <arcpath arcPointType="false" id="1" xCoord="326" yCoord="432"/>
+    </arc>
+    <arc id="Parado_Engelberg_S_1 to Desembarcar_Embarcar_Passageiros_2" inscription="[0,inf)" source="Parado_Engelberg_S_1" target="Desembarcar_Embarcar_Passageiros_2" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="326" yCoord="461"/>
+      <arcpath arcPointType="false" id="1" xCoord="326" yCoord="531"/>
+    </arc>
+    <arc id="Desembarcar_Embarcar_Passageiros_2 to Desembarque_Embarque_Completo_2" inscription="1" source="Desembarcar_Embarcar_Passageiros_2" target="Desembarque_Embarque_Completo_2" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="326" yCoord="541"/>
+      <arcpath arcPointType="false" id="1" xCoord="326" yCoord="582"/>
+    </arc>
+    <arc id="Desembarque_Embarque_Completo_2 to Ir_para_Esquerda_L_1" inscription="[0,inf)" source="Desembarque_Embarque_Completo_2" target="Ir_para_Esquerda_L_1" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="326" yCoord="611"/>
+      <arcpath arcPointType="false" id="1" xCoord="326" yCoord="681"/>
+    </arc>
+    <arc id="Ir_para_Esquerda_L_1 to Chega_na_Ponte_Stans_1" inscription="1" source="Ir_para_Esquerda_L_1" target="Chega_na_Ponte_Stans_1" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="326" yCoord="691"/>
+      <arcpath arcPointType="false" id="1" xCoord="326" yCoord="732"/>
+    </arc>
+    <arc id="Ir_para_Esquerda_L_2 to Ativou_a1" inscription="1" source="Ir_para_Esquerda_L_2" target="Ativou_a1" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="117" yCoord="732"/>
+      <arcpath arcPointType="false" id="1" xCoord="117" yCoord="686"/>
+    </arc>
+    <arc id="Ativou_a1 to Desacelerar_3" inscription="[0,inf)" source="Ativou_a1" target="Desacelerar_3" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="116" yCoord="657"/>
+      <arcpath arcPointType="false" id="1" xCoord="116" yCoord="616"/>
+    </arc>
+    <arc id="Desacelerar_3 to Lucerne_Parado_S" inscription="1" source="Desacelerar_3" target="Lucerne_Parado_S" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="116" yCoord="606"/>
+      <arcpath arcPointType="false" id="1" xCoord="116" yCoord="566"/>
+    </arc>
+    <arc id="Lucerne_Parado_S to Desembarcar_Embarcar_Passageiros_1" inscription="[0,inf)" source="Lucerne_Parado_S" target="Desembarcar_Embarcar_Passageiros_1" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="116" yCoord="537"/>
+      <arcpath arcPointType="false" id="1" xCoord="116" yCoord="481"/>
+    </arc>
+    <arc id="Desembarcar_Embarcar_Passageiros_1 to Desembarque_Embarque_Completo_1" inscription="1" source="Desembarcar_Embarcar_Passageiros_1" target="Desembarque_Embarque_Completo_1" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="116" yCoord="471"/>
+      <arcpath arcPointType="false" id="1" xCoord="116" yCoord="416"/>
+    </arc>
+    <arc id="Desembarque_Embarque_Completo_1 to Ir_Para_Direita_R_1" inscription="[0,inf)" source="Desembarque_Embarque_Completo_1" target="Ir_Para_Direita_R_1" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="116" yCoord="387"/>
+      <arcpath arcPointType="false" id="1" xCoord="116" yCoord="286"/>
+    </arc>
+    <arc id="Mutex_Controla_Ponte to Requisitar_Ponte_1" inscription="[0,inf)" source="Mutex_Controla_Ponte" target="Requisitar_Ponte_1" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="643" yCoord="200"/>
+      <arcpath arcPointType="false" id="1" xCoord="331" yCoord="57"/>
+    </arc>
+    <arc id="Chega_na_Ponte_Stans_1 to Liberar_Ponte_1" inscription="[0,inf)" source="Chega_na_Ponte_Stans_1" target="Liberar_Ponte_1" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="326" yCoord="761"/>
+      <arcpath arcPointType="false" id="1" xCoord="326" yCoord="821"/>
+    </arc>
+    <arc id="Liberar_Ponte_1 to Ponte_Liberada_1" inscription="1" source="Liberar_Ponte_1" target="Ponte_Liberada_1" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="322" yCoord="836"/>
+      <arcpath arcPointType="false" id="1" xCoord="131" yCoord="836"/>
+    </arc>
+    <arc id="Ponte_Liberada_1 to Ir_para_Esquerda_L_2" inscription="[0,inf)" source="Ponte_Liberada_1" target="Ir_para_Esquerda_L_2" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="117" yCoord="822"/>
+      <arcpath arcPointType="false" id="1" xCoord="117" yCoord="762"/>
+    </arc>
+    <arc id="Liberar_Ponte_1 to Mutex_Controla_Ponte" inscription="1" source="Liberar_Ponte_1" target="Mutex_Controla_Ponte" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="326" yCoord="821"/>
+      <arcpath arcPointType="false" id="1" xCoord="649" yCoord="220"/>
+    </arc>
+    <arc id="Requisitar_Ponte_2 to Passou_Ponte_Stans_2" inscription="1" source="Requisitar_Ponte_2" target="Passou_Ponte_Stans_2" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="957" yCoord="72"/>
+      <arcpath arcPointType="false" id="1" xCoord="957" yCoord="117"/>
+    </arc>
+    <arc id="Passou_Ponte_Stans_2 to Ir_Para_Direita_R_3" inscription="[0,inf)" source="Passou_Ponte_Stans_2" target="Ir_Para_Direita_R_3" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="957" yCoord="146"/>
+      <arcpath arcPointType="false" id="1" xCoord="957" yCoord="207"/>
+    </arc>
+    <arc id="Ir_Para_Direita_R_3 to Ativou_c_2" inscription="1" source="Ir_Para_Direita_R_3" target="Ativou_c_2" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="957" yCoord="237"/>
+      <arcpath arcPointType="false" id="1" xCoord="957" yCoord="282"/>
+    </arc>
+    <arc id="Ativou_c_2 to Desacelerar_4" inscription="[0,inf)" source="Ativou_c_2" target="Desacelerar_4" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="957" yCoord="311"/>
+      <arcpath arcPointType="false" id="1" xCoord="957" yCoord="372"/>
+    </arc>
+    <arc id="Desacelerar_4 to Parado_Engelberg_S_2" inscription="1" source="Desacelerar_4" target="Parado_Engelberg_S_2" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="957" yCoord="402"/>
+      <arcpath arcPointType="false" id="1" xCoord="957" yCoord="447"/>
+    </arc>
+    <arc id="Parado_Engelberg_S_2 to Desembarcar_Embarcar_Passageiros_3" inscription="[0,inf)" source="Parado_Engelberg_S_2" target="Desembarcar_Embarcar_Passageiros_3" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="957" yCoord="476"/>
+      <arcpath arcPointType="false" id="1" xCoord="957" yCoord="522"/>
+    </arc>
+    <arc id="Desembarcar_Embarcar_Passageiros_3 to Desembarque_Embarque_Completo_4" inscription="1" source="Desembarcar_Embarcar_Passageiros_3" target="Desembarque_Embarque_Completo_4" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="957" yCoord="552"/>
+      <arcpath arcPointType="false" id="1" xCoord="957" yCoord="597"/>
+    </arc>
+    <arc id="Desembarque_Embarque_Completo_4 to Ir_Para_Esquerda_L_3" inscription="[0,inf)" source="Desembarque_Embarque_Completo_4" target="Ir_Para_Esquerda_L_3" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="957" yCoord="626"/>
+      <arcpath arcPointType="false" id="1" xCoord="957" yCoord="672"/>
+    </arc>
+    <arc id="Ir_Para_Esquerda_L_3 to Chega_na_Ponte_Stans_2" inscription="1" source="Ir_Para_Esquerda_L_3" target="Chega_na_Ponte_Stans_2" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="957" yCoord="702"/>
+      <arcpath arcPointType="false" id="1" xCoord="957" yCoord="732"/>
+    </arc>
+    <arc id="Chega_na_Ponte_Stans_2 to Liberar_Ponte_2" inscription="[0,inf)" source="Chega_na_Ponte_Stans_2" target="Liberar_Ponte_2" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="957" yCoord="761"/>
+      <arcpath arcPointType="false" id="1" xCoord="957" yCoord="822"/>
+    </arc>
+    <arc id="Liberar_Ponte_2 to Ponte_Liberada_2" inscription="1" source="Liberar_Ponte_2" target="Ponte_Liberada_2" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="961" yCoord="837"/>
+      <arcpath arcPointType="false" id="1" xCoord="1167" yCoord="837"/>
+    </arc>
+    <arc id="Ponte_Liberada_2 to Ir_para_Esquerda_L_4" inscription="[0,inf)" source="Ponte_Liberada_2" target="Ir_para_Esquerda_L_4" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1182" yCoord="822"/>
+      <arcpath arcPointType="false" id="1" xCoord="1182" yCoord="762"/>
+    </arc>
+    <arc id="Ir_para_Esquerda_L_4 to Ativou_a2" inscription="1" source="Ir_para_Esquerda_L_4" target="Ativou_a2" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1182" yCoord="732"/>
+      <arcpath arcPointType="false" id="1" xCoord="1182" yCoord="671"/>
+    </arc>
+    <arc id="Ativou_a2 to Desacelerar_5" inscription="[0,inf)" source="Ativou_a2" target="Desacelerar_5" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1182" yCoord="642"/>
+      <arcpath arcPointType="false" id="1" xCoord="1182" yCoord="597"/>
+    </arc>
+    <arc id="Desacelerar_5 to Sarnen_Parado_S" inscription="1" source="Desacelerar_5" target="Sarnen_Parado_S" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1182" yCoord="567"/>
+      <arcpath arcPointType="false" id="1" xCoord="1182" yCoord="506"/>
+    </arc>
+    <arc id="Sarnen_Parado_S to Desembarcar_Embarcar_Passageiros_4" inscription="[0,inf)" source="Sarnen_Parado_S" target="Desembarcar_Embarcar_Passageiros_4" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1182" yCoord="477"/>
+      <arcpath arcPointType="false" id="1" xCoord="1182" yCoord="417"/>
+    </arc>
+    <arc id="Desembarcar_Embarcar_Passageiros_4 to Desembarque_Embarque_Completo_3" inscription="1" source="Desembarcar_Embarcar_Passageiros_4" target="Desembarque_Embarque_Completo_3" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1182" yCoord="387"/>
+      <arcpath arcPointType="false" id="1" xCoord="1182" yCoord="341"/>
+    </arc>
+    <arc id="Desembarque_Embarque_Completo_3 to Ir_Para_Direita_R_4" inscription="[0,inf)" source="Desembarque_Embarque_Completo_3" target="Ir_Para_Direita_R_4" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1182" yCoord="312"/>
+      <arcpath arcPointType="false" id="1" xCoord="1182" yCoord="267"/>
+    </arc>
+    <arc id="Ir_Para_Direita_R_4 to Ativou_b2" inscription="1" source="Ir_Para_Direita_R_4" target="Ativou_b2" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1182" yCoord="237"/>
+      <arcpath arcPointType="false" id="1" xCoord="1182" yCoord="206"/>
+    </arc>
+    <arc id="Ativou_b2 to Desacelerar_6" inscription="[0,inf)" source="Ativou_b2" target="Desacelerar_6" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1182" yCoord="177"/>
+      <arcpath arcPointType="false" id="1" xCoord="1182" yCoord="132"/>
+    </arc>
+    <arc id="Desacelerar_6 to Parado_S_2" inscription="1" source="Desacelerar_6" target="Parado_S_2" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1182" yCoord="102"/>
+      <arcpath arcPointType="false" id="1" xCoord="1182" yCoord="71"/>
+    </arc>
+    <arc id="Parado_S_2 to Requisitar_Ponte_2" inscription="[0,inf)" source="Parado_S_2" target="Requisitar_Ponte_2" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1167" yCoord="57"/>
+      <arcpath arcPointType="false" id="1" xCoord="961" yCoord="57"/>
+    </arc>
+    <arc id="Mutex_Controla_Ponte to Requisitar_Ponte_2" inscription="[0,inf)" source="Mutex_Controla_Ponte" target="Requisitar_Ponte_2" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="670" yCoord="200"/>
+      <arcpath arcPointType="false" id="1" xCoord="951" yCoord="57"/>
+    </arc>
+    <arc id="Liberar_Ponte_2 to Mutex_Controla_Ponte" inscription="1" source="Liberar_Ponte_2" target="Mutex_Controla_Ponte" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="957" yCoord="822"/>
+      <arcpath arcPointType="false" id="1" xCoord="663" yCoord="220"/>
+    </arc>
+    <arc id="Parado_S_2 to Ir_para_Esquerda_L_2" inscription="[0,inf)" source="Parado_S_2" target="Ir_para_Esquerda_L_2" type="tapnInhibitor" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1169" yCoord="65"/>
+      <arcpath arcPointType="false" id="1" xCoord="121" yCoord="747"/>
+    </arc>
+    <arc id="Parado_S_1 to Ir_para_Esquerda_L_4" inscription="[0,inf)" source="Parado_S_1" target="Ir_para_Esquerda_L_4" type="tapnInhibitor" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="129" yCoord="65"/>
+      <arcpath arcPointType="false" id="1" xCoord="1176" yCoord="747"/>
+    </arc>
+  </net>
+  <query active="true" algorithmOption="CERTAIN_ZERO" approximationDenominator="0" capacity="4" discreteInclusion="false" enableOverApproximation="false" enableUnderApproximation="false" extrapolationOption="AUTOMATIC" gcd="false" hashTableSize="MB_16" inclusionPlaces="*NONE*" name="q1" overApproximation="false" pTrie="false" reduction="true" reductionOption="VerifyPN" searchOption="HEURISTIC" symmetry="false" timeDarts="false" traceOption="NONE" type="CTL" useQueryReduction="true" useSiphonTrapAnalysis="false" useStubbornReduction="true">
+    <formula>
+      <negation>
+        <exists-path>
+          <finally>
+            <conjunction>
+              <disjunction>
+                <integer-eq>
+                  <tokens-count>
+                    <place>TAPN1.Passou_Ponte_Stans_1</place>
+                  </tokens-count>
+                  <integer-constant>1</integer-constant>
+                </integer-eq>
+                <integer-eq>
+                  <tokens-count>
+                    <place>TAPN1.Ativou_c_1</place>
+                  </tokens-count>
+                  <integer-constant>1</integer-constant>
+                </integer-eq>
+                <integer-eq>
+                  <tokens-count>
+                    <place>TAPN1.Parado_Engelberg_S_1</place>
+                  </tokens-count>
+                  <integer-constant>1</integer-constant>
+                </integer-eq>
+                <integer-eq>
+                  <tokens-count>
+                    <place>TAPN1.Desembarque_Embarque_Completo_2</place>
+                  </tokens-count>
+                  <integer-constant>1</integer-constant>
+                </integer-eq>
+                <integer-eq>
+                  <tokens-count>
+                    <place>TAPN1.Chega_na_Ponte_Stans_1</place>
+                  </tokens-count>
+                  <integer-constant>1</integer-constant>
+                </integer-eq>
+              </disjunction>
+              <disjunction>
+                <integer-eq>
+                  <tokens-count>
+                    <place>TAPN1.Passou_Ponte_Stans_2</place>
+                  </tokens-count>
+                  <integer-constant>1</integer-constant>
+                </integer-eq>
+                <integer-eq>
+                  <tokens-count>
+                    <place>TAPN1.Ativou_c_2</place>
+                  </tokens-count>
+                  <integer-constant>1</integer-constant>
+                </integer-eq>
+                <integer-eq>
+                  <tokens-count>
+                    <place>TAPN1.Parado_Engelberg_S_2</place>
+                  </tokens-count>
+                  <integer-constant>1</integer-constant>
+                </integer-eq>
+                <integer-eq>
+                  <tokens-count>
+                    <place>TAPN1.Desembarque_Embarque_Completo_4</place>
+                  </tokens-count>
+                  <integer-constant>1</integer-constant>
+                </integer-eq>
+                <integer-eq>
+                  <tokens-count>
+                    <place>TAPN1.Chega_na_Ponte_Stans_2</place>
+                  </tokens-count>
+                  <integer-constant>1</integer-constant>
+                </integer-eq>
+              </disjunction>
+            </conjunction>
+          </finally>
+        </exists-path>
+      </negation>
+    </formula>
+  </query>
+  <query active="true" algorithmOption="CERTAIN_ZERO" approximationDenominator="0" capacity="4" discreteInclusion="false" enableOverApproximation="false" enableUnderApproximation="false" extrapolationOption="AUTOMATIC" gcd="false" hashTableSize="MB_16" inclusionPlaces="*NONE*" name="q2" overApproximation="false" pTrie="false" reduction="true" reductionOption="VerifyPN" searchOption="HEURISTIC" symmetry="false" timeDarts="false" traceOption="NONE" type="CTL" useQueryReduction="true" useSiphonTrapAnalysis="false" useStubbornReduction="true">
+    <formula>
+      <negation>
+        <exists-path>
+          <finally>
+            <conjunction>
+              <integer-eq>
+                <tokens-count>
+                  <place>TAPN1.Parado_S_1</place>
+                </tokens-count>
+                <integer-constant>1</integer-constant>
+              </integer-eq>
+              <integer-eq>
+                <tokens-count>
+                  <place>TAPN1.Parado_S_2</place>
+                </tokens-count>
+                <integer-constant>1</integer-constant>
+              </integer-eq>
+              <integer-eq>
+                <tokens-count>
+                  <place>TAPN1.Mutex_Controla_Ponte</place>
+                </tokens-count>
+                <integer-constant>0</integer-constant>
+              </integer-eq>
+            </conjunction>
+          </finally>
+        </exists-path>
+      </negation>
+    </formula>
+  </query>
+  <query active="true" algorithmOption="CERTAIN_ZERO" approximationDenominator="0" capacity="4" discreteInclusion="false" enableOverApproximation="false" enableUnderApproximation="false" extrapolationOption="AUTOMATIC" gcd="false" hashTableSize="MB_16" inclusionPlaces="*NONE*" name="q3" overApproximation="false" pTrie="false" reduction="true" reductionOption="VerifyPN" searchOption="HEURISTIC" symmetry="false" timeDarts="false" traceOption="NONE" type="CTL" useQueryReduction="true" useSiphonTrapAnalysis="false" useStubbornReduction="true">
+    <formula>
+      <exists-path>
+        <finally>
+          <integer-eq>
+            <tokens-count>
+              <place>TAPN1.Parado_Engelberg_S_1</place>
+            </tokens-count>
+            <integer-constant>1</integer-constant>
+          </integer-eq>
+        </finally>
+      </exists-path>
+    </formula>
+  </query>
+  <k-bound bound="3"/>
+</pnml>

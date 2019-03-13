@@ -1,0 +1,7 @@
+/home/arthur/Documents/Faculdade/MFO/build/CMakeFiles/install.dir
+/home/arthur/Documents/Faculdade/MFO/build/CMakeFiles/list_install_components.dir
+/home/arthur/Documents/Faculdade/MFO/build/CMakeFiles/rebuild_cache.dir
+/home/arthur/Documents/Faculdade/MFO/build/CMakeFiles/trem.dir
+/home/arthur/Documents/Faculdade/MFO/build/CMakeFiles/install/strip.dir
+/home/arthur/Documents/Faculdade/MFO/build/CMakeFiles/install/local.dir
+/home/arthur/Documents/Faculdade/MFO/build/CMakeFiles/edit_cache.dir
