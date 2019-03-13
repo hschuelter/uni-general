@@ -1,0 +1,24 @@
+Chat-RPC
+==============
+
+A simple rpc chat for SDI course.
+
+Usage
+=====
+
+CMD
+---
+
+\> make
+
+\> rpcinfo
+
+\> sudo ./server
+
+\> ./client localhost
+
+Reference
+=========
+
+* http://people.cs.clemson.edu/~wayne/cpsc824/samples/simple_rpc/index.shtml
+* http://www.cs.cf.ac.uk/Dave/C/node34.html
