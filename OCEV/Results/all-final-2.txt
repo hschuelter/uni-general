@@ -1,0 +1,80 @@
+
+
+---------- Keane's Bump Test: ----------
+Population size: 50
+Genotype size: 50
+Codification: 3
+Lower bound: 0.00
+Upper bound: 10.00
+K: 4
+Kp: 1.00
+d: 4
+Crossover: 0.95
+Mutacao: 0.02
+Elitismo: 1
+Generations: 100000
+Runs: 10
+
+• Media:  0.822
+
+• Desvio: 0.007
+
+• THE BEST:
+    -> Run: 9
+    -> Configuracao: 6.26 6.23 3.13 3.09 3.07 3.09 3.05 3.05 3.02 3.03 3.00 2.98 2.99 2.98 2.99 2.97 2.92 2.90 2.89 2.90 2.84 0.44 0.45 0.45 0.45 0.43 0.47 0.34 0.46 0.44 0.40 0.47 0.44 0.34 0.47 0.46 0.38 0.42 0.33 0.51 0.38 0.53 0.40 0.44 0.42 0.48 0.38 0.43 0.40 0.39
+    -> Valor: 0.828
+    -> Fitness: 0.9206
+
+---------- Keane's Bump Test: ----------
+
+Population size: 50
+Genotype size: 50
+Codification: 3
+Lower bound: 0.00
+Upper bound: 10.00
+K: 4
+Kp: 1.00
+d: 4
+Crossover: 0.95
+Mutacao: 0.02
+Elitismo: 1
+Generations: 100000
+Runs: 100
+
+
+• Media:  0.818
+
+• Desvio: 0.006
+
+• THE BEST:
+    -> Run: 8
+    -> Configuracao: 6.25 6.23 3.12 3.14 3.11 3.06 3.06 3.08 3.08 3.00 2.99 3.03 3.01 2.95 2.93 2.94 2.91 2.89 2.90 2.85 0.55 0.47 0.41 0.45 0.43 0.51 0.47 0.48 0.52 0.43 0.51 0.51 0.41 0.44 0.44 0.45 0.44 0.43 0.37 0.39 0.41 0.44 0.40 0.46 0.47 0.47 0.44 0.53 0.44 0.50
+    -> Valor: 0.830
+    -> Fitness: 0.9224
+
+---------- Michalewicz: ----------
+Population size: 50
+Genotype size: 50
+Codification: 3
+Lower bound: 0.00
+Upper bound: 3.14
+K: 4
+Kp: 1.00
+d: 4
+Crossover: 1.00
+Mutacao: 0.01
+Elitismo: 1
+Generations: 50000
+Runs: 100
+
+• Media:  47.696
+
+• Desvio: 0.491
+
+• THE BEST:
+    -> Run: 6
+    -> Configuracao: 2.22 1.57 1.28 1.92 1.72 1.57 1.45 1.36 1.28 1.57 1.50 1.70 1.38 1.57 1.52 1.24 1.43 1.39 1.69 1.31 1.28 1.95 1.67 1.63 1.33 1.69 1.28 1.63 1.49 1.77 1.55 1.30 1.28 1.37 1.25 1.53 1.59 1.65 1.38 1.45 1.66 1.78 1.48 1.38 1.44 1.70 1.92 1.54 1.31 1.22
+    -> Valor: 48.838
+    -> Fitness: 0.9768
+
+---------- Michalewicz: ----------
