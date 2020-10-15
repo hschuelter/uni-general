@@ -7,7 +7,7 @@ void setup(v2I& grid, vector<Ant>& ants, int tam, int items, int num, int raio, 
     int x, y, rx, ry;
     double a, b;
     int color;
-    ifstream read("Inputs/dataset-0.in");
+    ifstream read("Inputs/dataset-2.in");
 
     grid = v2I(tam, v1I(tam, Item()));
     y = grid.size();
