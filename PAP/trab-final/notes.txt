@@ -1,0 +1,37 @@
+main :: IO()
+    -> pega os parâmetros por linha de comando e manda para a função run
+    ->
+
+run :: FilePath -> IO()
+    -> FilePath == String
+    ->  
+
+
+==========================================
+-- Caso (REFL)
+unify (Var x) (Var y) | x == y =
+    Just []
+
+-- Caso (ATOM)
+unify (Atom x) (Atom y) | x == y = 
+    Just []
+
+-- Caso (LEFT)
+unify (Var x) e | not (occursCheck e x) = 
+    Just [(x, e)]
+
+-- Caso (RIGHT)
+unify e (Var x) | not (occursCheck e x) = 
+    Just [(x, e)]
+
+-- Caso (PRED) -- TODO
+unify (Just a) (Just b) = 
+    (Just a) b
+
+-- Caso geral: Nao eh possivel unificar
+unify x y = 
+    Nothing
+
+-- TODO
+occursCheck :: Term -> Name -> Bool
+occursCheck e x = False
